@@ -7,30 +7,42 @@
     Position: fixed;
     top: 0px;
     left: 0px;
+    margin: 10px 0px 0px 10px;
 }
 
 #top-right {
     position: fixed;
     top: 0px;
     right: 0px;
+    margin: 10px 10px 0px 0px;
 }
 
 .left-bottom {
     position: fixed;
     bottom: 0px;
     left: 0px;
+    margin: 0px 0px 10px 10px;
 }
 
 .right-bottom {
     position: fixed;
     bottom: 0px;
     right: 0px;
+    margin: 0px 10px 10px 0px;
+}
+
+.footer {
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    border: solid rgba(128, 128, 128, 0.616) 1px;
+    bottom: 0px;
 }
 
 .content {
     display: block;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 16%;
 }
 
 .searchform {
@@ -42,3 +54,16 @@
     display: inline-block;
     margin: 0 auto;
 }
+
+input[type=text] {
+    height: 44px;
+    width: 484px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 0px;
+}
+
+input[type=submit] {
+
+}
+

@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial; 
 }
 
 #top-left {
@@ -59,11 +60,26 @@ input[type=text] {
     height: 44px;
     width: 484px;
     margin-top: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 2px 2px 0px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: solid darkgray 1px;
+    border-right: solid darkgray 1px;
+    box-shadow: 0px 1px 1px 0px;
+    padding: 0px 20px 0px 15px;
 }
 
 input[type=submit] {
-
+    margin: 30px 4px;
+    padding: 8px 16px;
+    font-weight: bold;
+    color: #757575;
+    Border: solid 1px transparent;
+    background-color:white;
+    border-radius: 2px;
 }
 
+input[type=submit]:hover {
+    border: solid 1px #757575;
+    color: black;
+    border-radius: 2px;
+}

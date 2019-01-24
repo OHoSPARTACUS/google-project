@@ -4,45 +4,48 @@
     font-family: Arial; 
 }
 
-#top-left {
+.top-left {
     Position: fixed;
     top: 0px;
     left: 0px;
-    margin: 10px 0px 0px 10px;
+    margin: 15px 0px 0px 15px;
     font-size: 13px;
+    color: black;
 }
 
-#top-right {
+#account-icon {
+
+}
+    
+
+.top-right {
     position: fixed;
     display: inline-block;
     top: 0px;
     right: 0px;
-    margin: 10px 10px 0px 0px;
+    margin: 15px 15px 0px 0px;
     font-size: 13px;
-
 }
 
 .left-bottom {
     position: fixed;
     bottom: 0px;
     left: 0px;
-    margin: 0px 0px 10px 10px;
+    margin: 0px 0px 13px 15px;
+    font-size: 16px;
 }
 
 .right-bottom {
     position: fixed;
     bottom: 0px;
     right: 0px;
-    margin: 0px 10px 10px 0px;
-}
-
-.header {
-    display: block;
+    margin: 0px 15px 13px 0px;
+    font-size: 16px;
 }
 
 .footer {
     position: fixed;
-    height: 40px;
+    height: 45px;
     width: 100%;
     border: solid #d6d6d6 1px;
     bottom: 0px;

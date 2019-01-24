@@ -1,7 +1,6 @@
-.topbar {
-    position: fixed;
-    width: 100%;
-
+* {
+    margin: 0;
+    padding: 0;
 }
 
 #top-left {
@@ -28,12 +27,18 @@
     right: 0px;
 }
 
-img.resize {
-   width: 272px;
-   height: 92px
+.content {
+    display: block;
+    text-align: center;
+    padding-top: 10%;
 }
 
-.content image {
-    height: 92px;
-    width: 272px;
+.searchform {
+    display: block;
+    text-align: center;
+}
+
+.searchform form {
+    display: inline-block;
+    margin: 0 auto;
 }

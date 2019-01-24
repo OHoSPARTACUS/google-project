@@ -1,3 +1,39 @@
-html {
-    
+.topbar {
+    position: fixed;
+    width: 100%;
+
+}
+
+#top-left {
+    Position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#top-right {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.left-bottom {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.right-bottom {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+img.resize {
+   width: 272px;
+   height: 92px
+}
+
+.content image {
+    height: 92px;
+    width: 272px;
 }

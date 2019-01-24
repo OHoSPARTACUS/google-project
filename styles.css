@@ -9,13 +9,17 @@
     top: 0px;
     left: 0px;
     margin: 10px 0px 0px 10px;
+    font-size: 13px;
 }
 
 #top-right {
     position: fixed;
+    display: inline-block;
     top: 0px;
     right: 0px;
     margin: 10px 10px 0px 0px;
+    font-size: 13px;
+
 }
 
 .left-bottom {
@@ -32,18 +36,22 @@
     margin: 0px 10px 10px 0px;
 }
 
+.header {
+    display: block;
+}
+
 .footer {
     position: fixed;
     height: 40px;
     width: 100%;
-    border: solid rgba(128, 128, 128, 0.616) 1px;
+    border: solid #d6d6d6 1px;
     bottom: 0px;
 }
 
 .content {
     display: block;
     text-align: center;
-    padding-top: 16%;
+    padding-top: 215px;
 }
 
 .searchform {
@@ -57,14 +65,26 @@
 }
 
 input[type=text] {
-    height: 44px;
-    width: 484px;
+    height: 40px;
+    width: 525px;
+    margin-top: 20px;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: solid transparent 1px;
+    border-right: solid transparent 1px;
+    box-shadow: 0px 1px 1px 0px;
+    padding: 0px 20px 0px 15px;
+}
+
+input[type=text]:hover {
+    height: 40px;
+    width: 525px;
     margin-top: 20px;
     border-top: transparent;
     border-left: transparent;
     border-bottom: solid darkgray 1px;
     border-right: solid darkgray 1px;
-    box-shadow: 0px 1px 1px 0px;
+    box-shadow: 0px 2px 2px 0px;
     padding: 0px 20px 0px 15px;
 }
 

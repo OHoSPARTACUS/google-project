@@ -8,22 +8,19 @@
     Position: fixed;
     top: 0px;
     left: 0px;
-    margin: 15px 0px 0px 15px;
+    margin: 18px 0px 0px 15px;
     font-size: 13px;
     color: black;
-}
-
-#account-icon {
-
-}
+    vertical-align: middle;
     
+
+}    
 
 .top-right {
     position: fixed;
-    display: inline-block;
     top: 0px;
     right: 0px;
-    margin: 15px 15px 0px 0px;
+    margin: 15px 15px 15px 15px;
     font-size: 13px;
 }
 
